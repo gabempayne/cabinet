@@ -1,6 +1,10 @@
 /*
- *= require_self
+  *= require_self
+  *= require normalize-rails
+  *= require_tree .
  */
+
 @import 'normalize';
 @import "global.css.scss";
 @import "docs.css.scss";
+@import "welcome.css.scss";
